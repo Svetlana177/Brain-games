@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { getRandomInRange, getMainParameters } from '../index.js';
+import { getRandomInRange, getMainParameters } from '../src/index.js';
 
 const evenParameters = () => {
   const minNumber = 1;
