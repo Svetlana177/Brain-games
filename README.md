@@ -3,8 +3,6 @@
 
 <a href="https://codeclimate.com/github/Svetlana177/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/4c380dadcba0dcf2d142/maintainability" /></a>
 
-<a href="https://codeclimate.com/github/Svetlana177/frontend-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4c380dadcba0dcf2d142/test_coverage" /></a>
-
 **brain-games**
 Описание мини-игр brain-games
 
