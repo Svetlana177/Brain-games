@@ -1,15 +1,15 @@
 import { getRandomInRange } from '../index.js';
 
+const minNumber = 1;
+const maxNumber = 20;
+let counter;
+let result = 0;
+const questionText = 'Find the greatest common divisor of given numbers.\nQuestion:';
+
 const makeGcdParameters = () => {
-  const minNumber = 1;
-  const maxNumber = 20;
   const firstNumber = getRandomInRange(minNumber, maxNumber);
   const secondNumber = getRandomInRange(minNumber, maxNumber);
-  const questionText = 'Find the greatest common divisor of given numbers.\nQuestion:';
   const question = `${questionText} ${firstNumber} ${secondNumber}`;
-  let counter;
-  let result = 0;
-
   if (firstNumber < secondNumber) {
     counter = firstNumber;
   } else {
