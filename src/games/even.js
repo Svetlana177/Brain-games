@@ -2,6 +2,7 @@ import { getRandomInRange } from '../index.js';
 
 const numberIsEven = 2;
 const isEven = (number) => number % numberIsEven === 0;
+let result = '';
 
 const makeEvenParameters = () => {
   const minNumber = 1;
@@ -9,7 +10,6 @@ const makeEvenParameters = () => {
   const randomNumber = getRandomInRange(minNumber, maxNumber);
   const questionText = 'Answer "yes" if the number is even, otherwise answer "no".\nQuestion:';
   const question = `${questionText} ${randomNumber}`;
-  let result = '';
 
   if (isEven(randomNumber)) {
     result = 'yes';
