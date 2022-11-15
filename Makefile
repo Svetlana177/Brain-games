@@ -1,8 +1,11 @@
 install:
-		npm ci
+	npm ci
 
 publish:
-		npm publish --dry-run
+	npm publish --dry-run
+
+fix:
+	npx eslint --fix .
 
 lint:
 	npx eslint .
@@ -24,10 +27,3 @@ brain-progression:
 
 brain-prime:
 	node bin/brain-prime.js
-
-fix:
-	npx eslint --fix .
-
-asciinema:
-	asciinema rec
-.PHONY: test
