@@ -1,7 +1,8 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Svetlana177/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Svetlana177/frontend-project-lvl1/actions) <a href="https://codeclimate.com/github/Svetlana177/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/4c380dadcba0dcf2d142/maintainability" /></a>
+[![Actions Status](https://github.com/Svetlana177/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Svetlana177/frontend-project-lvl1/actions)   
+<a href="https://codeclimate.com/github/Svetlana177/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/4c380dadcba0dcf2d142/maintainability" /></a>
 
-#Минимальные требования
+# Минимальные требования
 Установите Node.js последней версии в систему глобально  
 Для работы потребуется Ubuntu или Ubuntu on Windows/macOS
 
