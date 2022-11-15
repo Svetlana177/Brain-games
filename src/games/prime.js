@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../src/index.js';
+import { getRandomInRange } from '../index.js';
 
 const isPrime = (number) => {
   if (number < 2) {

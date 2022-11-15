@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../src/index.js';
+import { getRandomInRange } from '../index.js';
 
 const makeProgressionParameters = () => {
   const minNumber = 1;

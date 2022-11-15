@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../src/index.js';
+import { getRandomInRange } from '../index.js';
 
 const numberIsEven = 2;
 const isEven = (number) => number % numberIsEven === 0;

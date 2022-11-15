@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../src/index.js';
+import { getRandomInRange } from '../index.js';
 
 const minNumber = 1;
 const maxNumber = 10;

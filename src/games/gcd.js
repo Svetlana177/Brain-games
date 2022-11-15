@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../src/index.js';
+import { getRandomInRange } from '../index.js';
 
 const makeGcdParameters = () => {
   const minNumber = 1;
