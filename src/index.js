@@ -10,15 +10,12 @@ const hello = () => {
 
 const getRandomInRange = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const getMainParameters = (parameters) => {
+const startGame = (parameters) => {
   hello();
   for (let i = 0; i < 3; i += 1) {
-    // задать вопрос
     const init = parameters();
     console.log(init.question);
-    // получить ответ
     const answer = readlineSync.question('Your answer: ');
-    //  сравнить ответ
     if (String(answer) === String(init.result)) {
       console.log('Correct!');
 
@@ -33,5 +30,5 @@ const getMainParameters = (parameters) => {
 };
 
 export {
-  getRandomInRange, hello, getMainParameters,
+  getRandomInRange, hello, startGame,
 };
