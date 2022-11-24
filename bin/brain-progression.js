@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { startGame } from '../src/index.js';
-import makeProgressionParameters from '../src/games/progression.js';
+import startGame from '../src/index.js';
+import prepareDataForOneRound from '../src/games/progression.js';
 
-startGame(makeProgressionParameters);
+startGame(prepareDataForOneRound);

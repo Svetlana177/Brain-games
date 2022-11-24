@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { startGame } from '../src/index.js';
-import makeGcdParameters from '../src/games/gcd.js';
+import startGame from '../src/index.js';
+import prepareDataForOneRound from '../src/games/gcd.js';
 
-startGame(makeGcdParameters);
+startGame(prepareDataForOneRound);

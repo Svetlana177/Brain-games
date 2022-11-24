@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../index.js';
+import getRandomInRange from '../utils.js';
 
 const isPrime = (number) => {
   if (number < 2) {
@@ -12,17 +12,14 @@ const isPrime = (number) => {
   return true;
 };
 
-const makePrimeParameters = () => {
+const prepareDataForOneRound = () => {
   const minNumber = 1;
   const maxNumber = 20;
   const randomNumber = getRandomInRange(minNumber, maxNumber);
-  const questionText = 'Answer "yes" if given number is prime. Otherwise answer "no".\nQuestion:';
-  const question = `${questionText} ${randomNumber}`;
-  let result = '';
-  if (isPrime(randomNumber)) {
-    result = 'yes';
-  } else result = 'no';
-  return { question, result };
+  const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+  const question = `${randomNumber}`;
+  const result = (isPrime(randomNumber)) ? 'yes' : 'no';
+  return { description, question, result };
 };
 
-export default makePrimeParameters;
+export default prepareDataForOneRound;

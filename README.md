@@ -17,21 +17,24 @@
 Описание мини-игр brain-games
 
 # Мини-игра brain-calc 
-Калькулятор.  
+Калькулятор:  
+What is the result of the expression?  
 Запустить игру: <code>$ brain-calc</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:
 <a href="https://asciinema.org/a/nsXQE2EieGWRUKH0tO0Yd8AMJ" target="_blank"><img src="https://asciinema.org/a/nsXQE2EieGWRUKH0tO0Yd8AMJ.svg" /></a>
 
 # Мини-ирга brain-even  
-Необходимо указать четное число или нет.  
+Необходимо указать четное число или нет:  
+Answer "yes" if the number is even, otherwise answer "no".  
 Запустить игру: <code>$ brain-even</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:  
 <a href="https://asciinema.org/a/50526uqm5mBbAsq3wH0wOzR0A" target="_blank"><img src="https://asciinema.org/a/50526uqm5mBbAsq3wH0wOzR0A.svg" /></a>
 
 # Мини-ирга **brain-gcd**  
-Необходимо вычислить наибольший общий делитель (НОД).  
+Необходимо вычислить наибольший общий делитель (НОД):    
+Find the greatest common divisor of given numbers.  
 Запустить игру: <code>$ brain-gcd</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:  
@@ -40,7 +43,8 @@
 
 # Мини-ирга brain-progression  
 Игра "Арифметическая прогрессия"  
-Необходимо вычислить пропущенное число в последовательности чисел.  
+Необходимо вычислить пропущенное число в последовательности чисел:  
+What number is missing in the progression?  
 Запустить игру: <code>$ brain-progression</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:  
@@ -48,8 +52,9 @@
 
 
 # Мини-ирга brain-prime  
-Игра "Простое ли число?"   
-Необходимо ответить, является ли число простым или сложным.  
+Игра "Простое ли число?":   
+Необходимо ответить, является ли число простым или сложным:  
+Answer "yes" if given number is prime. Otherwise answer "no".  
 Запустить игру: <code>$ brain-prime</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:

@@ -1,26 +1,30 @@
-import { getRandomInRange } from '../index.js';
+import getRandomInRange from '../utils.js';
 
 const minNumber = 1;
 const maxNumber = 20;
-let counter;
+let leastCommonDivisor;
 let result = 0;
-const questionText = 'Find the greatest common divisor of given numbers.\nQuestion:';
 
-const makeGcdParameters = () => {
+const getLeastCommonDivisor = (firstValue, secondValue) => {
+  if (firstValue < secondValue) {
+    leastCommonDivisor = firstValue;
+  } else {
+    leastCommonDivisor = secondValue;
+  }
+};
+
+const prepareDataForOneRound = () => {
   const firstNumber = getRandomInRange(minNumber, maxNumber);
   const secondNumber = getRandomInRange(minNumber, maxNumber);
-  const question = `${questionText} ${firstNumber} ${secondNumber}`;
-  if (firstNumber < secondNumber) {
-    counter = firstNumber;
-  } else {
-    counter = secondNumber;
-  }
-  for (let i = 1; i <= counter; i += 1) {
+  const description = 'Find the greatest common divisor of given numbers.';
+  const question = `${firstNumber} ${secondNumber}`;
+  getLeastCommonDivisor(firstNumber, secondNumber);
+  for (let i = 1; i <= leastCommonDivisor; i += 1) {
     if ((firstNumber % i === 0) && (secondNumber % i === 0)) {
       result = i;
     }
   }
-  return { question, result };
+  return { description, question, result };
 };
 
-export default makeGcdParameters;
+export default prepareDataForOneRound;

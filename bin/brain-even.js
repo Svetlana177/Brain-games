@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { startGame } from '../src/index.js';
-import makeEvenParameters from '../src/games/even.js';
+import startGame from '../src/index.js';
+import prepareDataForOneRound from '../src/games/even.js';
 
-startGame(makeEvenParameters);
+startGame(prepareDataForOneRound);

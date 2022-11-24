@@ -1,21 +1,15 @@
-import { getRandomInRange } from '../index.js';
+import getRandomInRange from '../utils.js';
 
-const numberIsEven = 2;
-const isEven = (number) => number % numberIsEven === 0;
-let result = '';
+const hasEven = (number) => number % 2 === 0;
 
-const makeEvenParameters = () => {
+const prepareDataForOneRound = () => {
   const minNumber = 1;
   const maxNumber = 999;
   const randomNumber = getRandomInRange(minNumber, maxNumber);
-  const questionText = 'Answer "yes" if the number is even, otherwise answer "no".\nQuestion:';
-  const question = `${questionText} ${randomNumber}`;
-
-  if (isEven(randomNumber)) {
-    result = 'yes';
-  } else result = 'no';
-
-  return { question, result };
+  const description = 'Answer "yes" if the number is even, otherwise answer "no".';
+  const question = `${randomNumber}`;
+  const result = (hasEven(randomNumber)) ? 'yes' : 'no';
+  return { description, question, result };
 };
 
-export default makeEvenParameters;
+export default prepareDataForOneRound;
