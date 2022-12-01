@@ -4,6 +4,7 @@ const minNumber = 1;
 const maxNumber = 20;
 let leastCommonDivisor;
 let result = 0;
+const description = 'Find the greatest common divisor of given numbers.';
 
 const getLeastCommonDivisor = (firstValue, secondValue) => {
   if (firstValue < secondValue) {
@@ -16,7 +17,6 @@ const getLeastCommonDivisor = (firstValue, secondValue) => {
 const prepareDataForOneRound = () => {
   const firstNumber = getRandomInRange(minNumber, maxNumber);
   const secondNumber = getRandomInRange(minNumber, maxNumber);
-  const description = 'Find the greatest common divisor of given numbers.';
   const question = `${firstNumber} ${secondNumber}`;
   getLeastCommonDivisor(firstNumber, secondNumber);
   for (let i = 1; i <= leastCommonDivisor; i += 1) {

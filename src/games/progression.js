@@ -1,31 +1,31 @@
 import getRandomInRange from '../utils.js';
 
-let numbers = 0;
+const description = 'What number is missing in the progression?';
+const progressionLength = 10;
 const minNumber = 1;
 const maxNumber = 50;
 const startNumber = 0;
 const endNumber = 9;
-let result = 0;
-let arr = [];
 const mystery = '..';
 const numberOfElementsToRemove = 1;
+const startIndex = getRandomInRange(startNumber, endNumber);
+const randomStep = getRandomInRange(minNumber, maxNumber);
 
-const getProgression = () => {
-  const startIndex = getRandomInRange(startNumber, endNumber);
-  const randomNumber = getRandomInRange(minNumber, maxNumber);
-  for (let i = 1; i <= 10; i += 1) {
-    numbers += randomNumber;
-    arr.push(numbers);
-    result = arr[startIndex];
+const getProgression = (start, step, length) => {
+  const progression = [];
+
+  for (let i = 0; i < length; i += 1) {
+    progression.push(startIndex + step * i);
   }
-  arr.splice(startIndex, numberOfElementsToRemove, mystery);
-  return arr.join(' ');
+  return progression;
 };
 
 const prepareDataForOneRound = () => {
-  const description = 'What number is missing in the progression?';
-  const question = `${getProgression()}`;
-  arr = [];
+  const mysteryIndex = getRandomInRange(startNumber, progressionLength - numberOfElementsToRemove);
+  const progression = getProgression(startIndex, randomStep, progressionLength);
+  const result = String(progression[mysteryIndex]);
+  progression[mysteryIndex] = mystery;
+  const question = progression.join(' ');
   return { description, question, result };
 };
 

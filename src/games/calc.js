@@ -3,6 +3,8 @@ import getRandomInRange from '../utils.js';
 const minNumber = 1;
 const maxNumber = 10;
 const operators = ['+', '-', '*'];
+const description = 'What is the result of the expression?';
+
 const getExpression = {
   '+': function getPlus(a, b) {
     return a + b;
@@ -20,7 +22,6 @@ const prepareDataForOneRound = () => {
   const secondNumber = getRandomInRange(minNumber, maxNumber);
   const randomNumber = getRandomInRange(0, operators.length - 1);
   const randomOperator = operators[randomNumber];
-  const description = 'What is the result of the expression?';
   const question = `${firstNumber} ${randomOperator} ${secondNumber}`;
   const result = getExpression[randomOperator](firstNumber, secondNumber);
   return { description, question, result };
