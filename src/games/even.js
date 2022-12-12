@@ -9,7 +9,10 @@ const prepareDataForOneRound = () => {
   const randomNumber = getRandomInRange(minNumber, maxNumber);
   const question = `${randomNumber}`;
   const result = (isEven(randomNumber)) ? 'yes' : 'no';
-  return { description, question, result };
+  return { question, result };
 };
 
-export default prepareDataForOneRound;
+export {
+  description,
+  prepareDataForOneRound,
+};

@@ -23,4 +23,7 @@ const prepareDataForOneRound = () => {
   return { description, question, result };
 };
 
-export default prepareDataForOneRound;
+export {
+  description,
+  prepareDataForOneRound,
+};

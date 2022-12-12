@@ -24,7 +24,7 @@ What is the result of the expression?
 Аскинема с запуском и демонстрацией различных исходов игры:
 <a href="https://asciinema.org/a/nsXQE2EieGWRUKH0tO0Yd8AMJ" target="_blank"><img src="https://asciinema.org/a/nsXQE2EieGWRUKH0tO0Yd8AMJ.svg" /></a>
 
-# Мини-ирга brain-even  
+# Мини-игра brain-even  
 Необходимо указать четное число или нет:  
 Answer "yes" if the number is even, otherwise answer "no".  
 Запустить игру: <code>$ brain-even</code>
@@ -32,7 +32,7 @@ Answer "yes" if the number is even, otherwise answer "no".
 Аскинема с запуском и демонстрацией различных исходов игры:  
 <a href="https://asciinema.org/a/50526uqm5mBbAsq3wH0wOzR0A" target="_blank"><img src="https://asciinema.org/a/50526uqm5mBbAsq3wH0wOzR0A.svg" /></a>
 
-# Мини-ирга **brain-gcd**  
+# Мини-игра **brain-gcd**  
 Необходимо вычислить наибольший общий делитель (НОД):    
 Find the greatest common divisor of given numbers.  
 Запустить игру: <code>$ brain-gcd</code>
@@ -41,7 +41,7 @@ Find the greatest common divisor of given numbers.
 <a href="https://asciinema.org/a/Lot5pPb5Aj816apOVy1DFP4nW" target="_blank"><img src="https://asciinema.org/a/Lot5pPb5Aj816apOVy1DFP4nW.svg" /></a>
 
 
-# Мини-ирга brain-progression  
+# Мини-игра brain-progression  
 Игра "Арифметическая прогрессия"  
 Необходимо вычислить пропущенное число в последовательности чисел:  
 What number is missing in the progression?  
@@ -51,7 +51,7 @@ What number is missing in the progression?
 <a href="https://asciinema.org/a/X4qUsmHbR08fODPRV3c5Kx49A" target="_blank"><img src="https://asciinema.org/a/X4qUsmHbR08fODPRV3c5Kx49A.svg" /></a>
 
 
-# Мини-ирга brain-prime  
+# Мини-игра brain-prime  
 Игра "Простое ли число?":   
 Необходимо ответить, является ли число простым или сложным:  
 Answer "yes" if given number is prime. Otherwise answer "no".  

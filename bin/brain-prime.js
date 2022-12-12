@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 import startGame from '../src/index.js';
-import prepareDataForOneRound from '../src/games/prime.js';
+import { description, prepareDataForOneRound } from '../src/games/prime.js';
 
-startGame(prepareDataForOneRound);
+startGame(description, prepareDataForOneRound);

@@ -24,7 +24,10 @@ const prepareDataForOneRound = () => {
   const randomOperator = operators[randomNumber];
   const question = `${firstNumber} ${randomOperator} ${secondNumber}`;
   const result = getExpression[randomOperator](firstNumber, secondNumber);
-  return { description, question, result };
+  return { question, result };
 };
 
-export default prepareDataForOneRound;
+export {
+  description,
+  prepareDataForOneRound,
+};
