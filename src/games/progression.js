@@ -26,7 +26,7 @@ const prepareDataForOneRound = () => {
   const result = String(progression[mysteryIndex]);
   progression[mysteryIndex] = mystery;
   const question = progression.join(' ');
-  return { description, question, result };
+  return { question, result };
 };
 
 export {

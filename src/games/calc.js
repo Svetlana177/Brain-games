@@ -1,9 +1,10 @@
 import getRandomInRange from '../utils.js';
 
+const description = 'What is the result of the expression?';
+
 const minNumber = 1;
 const maxNumber = 10;
 const operators = ['+', '-', '*'];
-const description = 'What is the result of the expression?';
 
 const getExpression = {
   '+': function getPlus(a, b) {

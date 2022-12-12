@@ -16,11 +16,11 @@ const isPrime = (number) => {
 
 const prepareDataForOneRound = () => {
   const minNumber = 1;
-  const maxNumber = 20;
+  const maxNumber = 200;
   const randomNumber = getRandomInRange(minNumber, maxNumber);
   const question = `${randomNumber}`;
   const result = (isPrime(randomNumber)) ? 'yes' : 'no';
-  return { description, question, result };
+  return { question, result };
 };
 
 export {

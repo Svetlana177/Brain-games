@@ -21,8 +21,8 @@
 What is the result of the expression?  
 Запустить игру: <code>$ brain-calc</code>
 
-Аскинема с запуском и демонстрацией различных исходов игры:
-<a href="https://asciinema.org/a/nsXQE2EieGWRUKH0tO0Yd8AMJ" target="_blank"><img src="https://asciinema.org/a/nsXQE2EieGWRUKH0tO0Yd8AMJ.svg" /></a>
+Аскинема с запуском и демонстрацией различных исходов игры:  
+<a href="https://asciinema.org/a/vMx65euvQm35JWCOGhvMUAZAs" target="_blank"><img src="https://asciinema.org/a/vMx65euvQm35JWCOGhvMUAZAs.svg" /></a>  
 
 # Мини-игра brain-even  
 Необходимо указать четное число или нет:  
@@ -30,7 +30,7 @@ Answer "yes" if the number is even, otherwise answer "no".
 Запустить игру: <code>$ brain-even</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:  
-<a href="https://asciinema.org/a/50526uqm5mBbAsq3wH0wOzR0A" target="_blank"><img src="https://asciinema.org/a/50526uqm5mBbAsq3wH0wOzR0A.svg" /></a>
+<a href="https://asciinema.org/a/gjgOmS0n3fJkgKDmS06Idkgjt" target="_blank"><img src="https://asciinema.org/a/gjgOmS0n3fJkgKDmS06Idkgjt.svg" /></a>
 
 # Мини-игра **brain-gcd**  
 Необходимо вычислить наибольший общий делитель (НОД):    
@@ -38,7 +38,7 @@ Find the greatest common divisor of given numbers.
 Запустить игру: <code>$ brain-gcd</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:  
-<a href="https://asciinema.org/a/Lot5pPb5Aj816apOVy1DFP4nW" target="_blank"><img src="https://asciinema.org/a/Lot5pPb5Aj816apOVy1DFP4nW.svg" /></a>
+<a href="https://asciinema.org/a/dyJEfLQ50BCAFxSpncZQHzJ7e" target="_blank"><img src="https://asciinema.org/a/dyJEfLQ50BCAFxSpncZQHzJ7e.svg" /></a>
 
 
 # Мини-игра brain-progression  
@@ -48,7 +48,7 @@ What number is missing in the progression?
 Запустить игру: <code>$ brain-progression</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:  
-<a href="https://asciinema.org/a/X4qUsmHbR08fODPRV3c5Kx49A" target="_blank"><img src="https://asciinema.org/a/X4qUsmHbR08fODPRV3c5Kx49A.svg" /></a>
+<a href="https://asciinema.org/a/z7fP8e12KaPpUmz5m1WHv3d1d" target="_blank"><img src="https://asciinema.org/a/z7fP8e12KaPpUmz5m1WHv3d1d.svg" /></a>
 
 
 # Мини-игра brain-prime  
@@ -58,4 +58,5 @@ Answer "yes" if given number is prime. Otherwise answer "no".
 Запустить игру: <code>$ brain-prime</code>
 
 Аскинема с запуском и демонстрацией различных исходов игры:
-<a href="https://asciinema.org/a/st2puav1Me1CD8dbVcKOCJMgS" target="_blank"><img src="https://asciinema.org/a/st2puav1Me1CD8dbVcKOCJMgS.svg" /></a>
+
+<a href="https://asciinema.org/a/NKFgk4Oin9Ra9ch8db0kgpbrb" target="_blank"><img src="https://asciinema.org/a/NKFgk4Oin9Ra9ch8db0kgpbrb.svg" /></a>
